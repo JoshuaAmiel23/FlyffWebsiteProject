@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    background: url(./fon-bg-top.jp) center top no-repeat, url(./fon-bg-bottom.jpg) center bottom no-repeat;
+    background-color: #040612;
+    font-family: "lora", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+ol, ul, li{
+    list-style-type: none;
+}
+a {
+    transition: 0.5s ease;
+    color: #fff;
+    text-decoration: none;
+}
+.FlyffLogo{
+    left:32.7rem;
+    justify-content: center;
+    transition: .55s;
+    height: 15%;
+    display: flex;
+    position: absolute;
+}
+.FlyffLogo:hover{
+    transform: scale(1.1)
+}
+.MainWrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+.Header{
+    min-height: 690px;
+    position: relative;
+}
+.top-menu{
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 35px 10px;
+        display: block;
+        font-weight: bold;
+        border-top: 2px solid rgba(0, 0, 0, 0);
+}
+.top-menu ul li a:hover{
+    text-shadow: 0px 0px 1.2rem #3d97e0;
+    color: #3d97e0;
+}
+.topleft{
+    left: -5rem;
+    gap: 8.5rem;
+    display: flex;
+    position: relative;
+}
+.topright{
+    top: -1.83rem;
+    right: -46.5em;
+    gap: 8.5rem;
+    display: flex;
+    position: relative;
+}
